@@ -1,9 +1,3 @@
--- Sélectionner les moyennes des étudiants de 4ème année, ainsi que leur nom/prénom, ordonnée par année d’étude,
--- moyenne et nom/prénom. Les étudiants n’ayant pas de module de 4ème année et les modules n’ayant pas d’étudiants
--- ayant tenté l’examen ne seront pas récupérés.
---
--- les étudiants en 4ème possède l'id module.year = 2
-
 SELECT CONCAT(s.firstname, ' ', s.lastname) AS fullname, 
 	ROUND(AVG(a.grade) AS rating, 
 	y.label

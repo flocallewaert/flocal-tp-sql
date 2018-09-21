@@ -1,5 +1,3 @@
--- Créer un utilisateur read-only qui peut accéder à une vue des personnes ayant validé leur 4ème année en 2016 :
-
 CREATE VIEW view_4_years_validate_2016
 (firstname, lastname)
 AS SELECT s.firstname, 

@@ -1,6 +1,3 @@
--- Sélectionner tous les étudiants et leur année d’étude au 1er juillet 2017 (2017-07-01) inclus si ils en ont une, 
--- ordonnés par nom de famille croissants.
-
 SELECT CONCAT(s.firstname, ' ', s.lastname) AS fullname, y.label
 FROM year AS y
 RIGHT JOIN enrolment AS e ON e.id_year = y.id
